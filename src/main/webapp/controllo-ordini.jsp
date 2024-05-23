@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1" import="model.OrderBean, model.ProductBean, java.text.DecimalFormat, java.util.*"%>    
+    pageEncoding="ISO-8859-1" import="model.OrderBean, model.ProductBean, java.text.DecimalFormat, java.util.*"
+    errorPage = "errorpage.jsp"%>    
 <!DOCTYPE html>
 <html>
 <head>

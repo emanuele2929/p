@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1" import="model.UserBean, java.util.Collection, java.util.Iterator"%>
+    pageEncoding="ISO-8859-1" import="model.UserBean, java.util.Collection, java.util.Iterator"
+    errorPage = "errorpage.jsp"%>
 <% if (session.getAttribute("registeredUser") == null) {
 		response.sendRedirect("loginPage.jsp");
 	}

@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1" import="model.ProductBean, model.UserBean, model.CartBean, java.util.*, javax.servlet.RequestDispatcher, java.text.DecimalFormat"%>
+    pageEncoding="ISO-8859-1" import="model.ProductBean, model.UserBean, model.CartBean, java.util.*, javax.servlet.RequestDispatcher, java.text.DecimalFormat"
+    errorPage = "errorpage.jsp"%>
 <!DOCTYPE html>
 <%	Collection<?> preferiti = (Collection<?>) request.getSession().getAttribute("preferiti");
 	if(preferiti == null) {

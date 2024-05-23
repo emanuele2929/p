@@ -1,6 +1,8 @@
 
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1" import="model.CartBean, model.ProductBean, model.UserBean, java.util.*"%>
+    pageEncoding="ISO-8859-1" import="model.CartBean, model.ProductBean, model.UserBean, java.util.*"
+    errorPage = "errorpage.jsp"%>
+   
 <%
 	if (session.getAttribute("carrello") == null) {
 		CartBean carrello = new CartBean();
